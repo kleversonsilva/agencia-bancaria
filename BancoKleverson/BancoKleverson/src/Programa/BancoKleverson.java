@@ -27,7 +27,7 @@ public class BancoKleverson {
         "|   Opção 3 - Sacar         |"+
         "|   Opção 4 - Transferir    |"+
         "|   Opção 5 - Listar        |"+
-        "|   Opção  - Sair           |"));
+        "|   Opção 6 - Sair           |"));
 
         //int operacao = input.nextInt();
         switch (operacao) {
@@ -53,7 +53,7 @@ public class BancoKleverson {
 
             default:
                 JOptionPane.showMessageDialog(null,"opcao invalida!");
-                //se o user digitar funcao q nao existe
+                //se o user digitar funcao q nao existe. ALTERACOES EM 05/01
                 operacoes();//chama menu operaçoes novamente.
                 break;
         }
