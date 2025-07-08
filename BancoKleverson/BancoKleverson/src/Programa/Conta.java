@@ -14,7 +14,7 @@ public class Conta {
     public Conta(Pessoa pessoa){
         this.numConta=contadorDeContas;
         this.pessoa=pessoa;
-        contadorDeContas+=1;   //toda vez que a conta é criada acreccenta mais 1.
+        contadorDeContas+=1;   //toda vez que a conta é criada acreccenta mais 1 aqui.
     }
     public int getNumConta() {
         return numConta;
@@ -40,7 +40,7 @@ public class Conta {
             "\nNome: "+ this.pessoa.getNome() +
             "\nCpf: "+ this.pessoa.getCpf() +
             "\nEmail: "+ this.pessoa.getEmail() +
-             "\nSaldo: "+ Utils.doubleToString(this.getSaldo()) + //pegou da classe utils
+             "\nSaldo: "+ Utils.doubleToString(this.getSaldo()) + //pegou da classe utils...
         "\n";
     }
     //Depositar
